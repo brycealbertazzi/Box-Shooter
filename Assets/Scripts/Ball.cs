@@ -4,6 +4,7 @@
 public class Ball : MonoBehaviour {
 	private Rigidbody ballRigidBody;
 	private AttemptsRemaining misses;
+	private BoxDisplay boxDisplay;
 	private float yLaunchVelocity;
 
 	Vector3 startPosition;
@@ -22,6 +23,8 @@ public class Ball : MonoBehaviour {
 		ballRigidBody.useGravity = false;
 		initialPosition = transform.position;
 		misses = FindFirstObjectByType<AttemptsRemaining>();
+		boxDisplay = FindFirstObjectByType<BoxDisplay>();
+		Reset();
 	}
 
 	void OnMouseDown() {
@@ -46,12 +49,17 @@ public class Ball : MonoBehaviour {
 	void OnCollisionEnter(Collision collider) {
 		if (collider.gameObject.name == "Platform")
 		{
-			Reset();
 			misses.missesRemaining--;
 			misses.UpdateDisplay();
+			if (boxDisplay.boxCount > 0)
+			{
+				Reset();
+			}
 		}
 	}
-	public void Reset(){
+	
+	public void Reset()
+	{
 		ballRigidBody.useGravity = false;
 		transform.position = initialPosition;
 		ballRigidBody.linearVelocity = Vector3.zero;

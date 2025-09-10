@@ -18,7 +18,6 @@ public class AttemptsRemaining : MonoBehaviour {
 
 	public void UpdateDisplay()
 	{
-		Debug.Log(missesRemaining.ToString());
 		attemptsRemainingDisplay.text = missesRemaining.ToString();
 		if (missesRemaining <= 0)
 		{
