@@ -1,13 +1,10 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(AttemptsRemaining))]
 public class Ball : MonoBehaviour {
-
-	public float yLaunchVelocity;
-
 	private Rigidbody ballRigidBody;
 	private AttemptsRemaining misses;
+	private float yLaunchVelocity;
 
 	Vector3 startPosition;
 	Vector3 endPosition;
@@ -18,12 +15,13 @@ public class Ball : MonoBehaviour {
 	void Awake()
 	{
 		ballRigidBody = GetComponent<Rigidbody>();
-		misses = FindFirstObjectByType<AttemptsRemaining>();
 	}
 
-	void Start () {
+	void Start()
+	{
 		ballRigidBody.useGravity = false;
 		initialPosition = transform.position;
+		misses = FindFirstObjectByType<AttemptsRemaining>();
 	}
 
 	void OnMouseDown() {
@@ -37,40 +35,20 @@ public class Ball : MonoBehaviour {
 		float xSpeed = (endPosition.x - startPosition.x) / (endTime - startTime)/150;
 		float zSpeed = (endPosition.y - startPosition.y) / (endTime - startTime)/100;
 		ballRigidBody.angularVelocity = new Vector3 (10, 0, 10);
-		initialVelocity = new Vector3 (xSpeed, yLaunchVelocity, zSpeed);
-		Vector3 flickPower = new Vector3 (xSpeed, 0, zSpeed);
+		Vector3 flickPower = new(xSpeed, 0, zSpeed);
 		float flickMagnitude = Vector3.Magnitude (flickPower);
-		//Handle y velocity by flick power
-		if (flickMagnitude < 10)
-			yLaunchVelocity = 3;
-		else if (flickMagnitude >= 10 && flickMagnitude < 15)
-			yLaunchVelocity = 4;
-		else if (flickMagnitude >= 15 && flickMagnitude < 20)
-			yLaunchVelocity = 5;
-		else if (flickMagnitude >= 20 && flickMagnitude < 25)
-			yLaunchVelocity = 7;
-		else if (flickMagnitude >= 25 && flickMagnitude < 30)
-			yLaunchVelocity = 10;
-		else if (flickMagnitude >= 30 && flickMagnitude < 35)
-			yLaunchVelocity = 12;
-		else if (flickMagnitude >= 35 && flickMagnitude < 40)
-			yLaunchVelocity = 15;
-		else if (flickMagnitude >= 40 && flickMagnitude < 50)
-			yLaunchVelocity = 17;
-		else if (flickMagnitude >= 50 && flickMagnitude < 60)
-			yLaunchVelocity = 20;
-		else if (flickMagnitude >= 60 && flickMagnitude < 70)
-			yLaunchVelocity = 24;
-		else
-			yLaunchVelocity = 32;
-		//end
+		yLaunchVelocity = flickMagnitude / 5;
+		initialVelocity = new Vector3(xSpeed, yLaunchVelocity, zSpeed);
+
 		ballRigidBody.linearVelocity = initialVelocity;
 		ballRigidBody.useGravity = true;
 	}
 	void OnCollisionEnter(Collision collider) {
-		if (collider.gameObject.name == "Platform") {
-			Reset ();
+		if (collider.gameObject.name == "Platform")
+		{
+			Reset();
 			misses.missesRemaining--;
+			misses.UpdateDisplay();
 		}
 	}
 	public void Reset(){

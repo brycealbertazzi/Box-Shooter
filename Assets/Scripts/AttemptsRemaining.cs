@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(LevelManager))]
 [RequireComponent(typeof(Text))]
 public class AttemptsRemaining : MonoBehaviour {
 
@@ -10,27 +9,20 @@ public class AttemptsRemaining : MonoBehaviour {
 	private LevelManager levelManager;
 	public static int totalScore;
 
-	void Awake()
+	void Start()
 	{
 		levelManager = FindFirstObjectByType<LevelManager>();
 		attemptsRemainingDisplay = GetComponent<Text>();
-	}
-
-	void Start () {
 		attemptsRemainingDisplay.text = missesRemaining.ToString();
-	}
-	
-	void Update () {
-		UpdateDisplay ();
-		GameLost ();
-	}
-	void GameLost() {
-		if (missesRemaining <= 0) {
-			levelManager.LoadLevelWithDelay("_Lose");
+    }
+
+	public void UpdateDisplay()
+	{
+		Debug.Log(missesRemaining.ToString());
+		attemptsRemainingDisplay.text = missesRemaining.ToString();
+		if (missesRemaining <= 0)
+		{
+			levelManager.LoadLose();
 		}
-	}
-
-	void UpdateDisplay (){
-		attemptsRemainingDisplay.text = missesRemaining.ToString();
 	}
 }

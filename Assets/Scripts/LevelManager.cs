@@ -27,12 +27,22 @@ public class LevelManager : MonoBehaviour
 
     public void LoadStart()
     {
-        SceneManager.LoadScene("_Start");
+        LoadLevelByName("_Start");
+    }
+
+    public void LoadLose()
+    {
+        LoadLevelByName("_Lose");
     }
 
     public void LoadFirstLevel()
     {
-        SceneManager.LoadScene(2);
+        LoadLevelByName("Level 1");
+    }
+
+    public void LoadLevelByName(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 
     public void LoadLevelWithDelay(string sceneName, float delay = 1f)
