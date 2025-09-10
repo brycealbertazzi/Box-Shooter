@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(AttemptsRemaining))]
 public class Ball : MonoBehaviour {
 
 	public float yLaunchVelocity;
 
 	private Rigidbody ballRigidBody;
 	private AttemptsRemaining misses;
-	private HitDetector hitDetector;
-	private Camera mainCamera;
 
 	Vector3 startPosition;
 	Vector3 endPosition;
@@ -17,15 +15,16 @@ public class Ball : MonoBehaviour {
 	float endTime;
 	Vector3 initialPosition;
 
+	void Awake()
+	{
+		ballRigidBody = GetComponent<Rigidbody>();
+		misses = FindFirstObjectByType<AttemptsRemaining>();
+	}
 
 	void Start () {
-		ballRigidBody = GetComponent<Rigidbody> ();
 		ballRigidBody.useGravity = false;
 		initialPosition = transform.position;
-		misses = FindObjectOfType<AttemptsRemaining> ();
-		hitDetector = FindObjectOfType<HitDetector> ();
 	}
-	
 
 	void OnMouseDown() {
 		startTime = Time.time;
@@ -80,6 +79,4 @@ public class Ball : MonoBehaviour {
 		ballRigidBody.linearVelocity = Vector3.zero;
 		ballRigidBody.angularVelocity = Vector3.zero;
 	}
-
-
 }

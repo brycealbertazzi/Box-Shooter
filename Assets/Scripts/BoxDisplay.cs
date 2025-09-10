@@ -1,18 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Text))]
 public class BoxDisplay : MonoBehaviour {
-
 	public int boxCount;
-
 	private Text boxDisplay;
 	private LevelManager levelManager;
 
-	void Start () {
-		boxDisplay = GetComponent<Text> ();
-		levelManager = FindObjectOfType<LevelManager> ();
+    void Awake()
+    {
+		boxDisplay = GetComponent<Text>();
+    }
+
+    [System.Obsolete]
+    void Start () {
+		levelManager = FindFirstObjectByType<LevelManager>();
 
 		CountDisplay ();
 		BoxUpdate ();
@@ -22,7 +24,9 @@ public class BoxDisplay : MonoBehaviour {
 		CountDisplay ();
 		NextLevelLoaded ();
 	}
-	void BoxUpdate(){
+
+    [System.Obsolete]
+    void BoxUpdate(){
 		foreach (HitDetector hit in GameObject.FindObjectsOfType<HitDetector>()) {
 			boxCount++;
 		}
@@ -32,7 +36,7 @@ public class BoxDisplay : MonoBehaviour {
 	}
 	void NextLevelLoaded () {
 		if (boxCount <= 0) {
-			levelManager.LoadNextLevel ();
+			levelManager.LoadNextLevel();
 		}
 	}
 }

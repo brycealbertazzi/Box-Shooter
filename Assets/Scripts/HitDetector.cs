@@ -7,43 +7,47 @@ public class HitDetector : MonoBehaviour {
 
 	public AudioClip scoreClip;
 
-	private Ball ball;
-	private ParticleSystem particleSystem;
+	private ParticleSystem ps;
 	private BoxDisplay boxDisplay;
 	private AttemptsRemaining attempts;
 	private Camera mainCamera;
 
-	void Start () {
-		ball = FindObjectOfType<Ball> ();
-		particleSystem = FindObjectOfType<ParticleSystem> ();
-		boxDisplay = FindObjectOfType<BoxDisplay> ();
-		attempts = FindObjectOfType<AttemptsRemaining> ();
-		mainCamera = FindObjectOfType<Camera> ();
+	void Awake()
+	{
+		ps = FindFirstObjectByType<ParticleSystem> ();
+		boxDisplay = FindFirstObjectByType<BoxDisplay> ();
+		attempts = FindFirstObjectByType<AttemptsRemaining> ();
+		mainCamera = FindFirstObjectByType<Camera> ();
 	}
 
 	void OnTriggerExit(){
-		if (gameObject.tag == "Large Box"){
-			Destroy (gameObject);
-			particleSystem.startColor = Color.green;
-			Instantiate (particleSystem, transform.position, Quaternion.identity);
+		var main = ps.main;
+		if (gameObject.CompareTag("Large Box"))
+		{
+			Destroy(gameObject);
+			main.startColor = Color.green;
+			Instantiate(ps, transform.position, Quaternion.identity);
 			attempts.missesRemaining++;
 		}
-		if (gameObject.tag == "Medium Box"){
+		if (gameObject.CompareTag("Medium Box"))
+        {
 			Destroy (gameObject);
-			particleSystem.startColor = Color.cyan;
-			Instantiate (particleSystem, transform.position, Quaternion.identity);
+			main.startColor = Color.cyan;
+			Instantiate (ps, transform.position, Quaternion.identity);
 			attempts.missesRemaining++;
 		}
-		if (gameObject.tag == "Small Box"){
+		if (gameObject.CompareTag("Small Box"))
+        {
 			Destroy (gameObject);
-			particleSystem.startColor = Color.blue;
-			Instantiate (particleSystem, transform.position, Quaternion.identity);
+			main.startColor = Color.blue;
+			Instantiate (ps, transform.position, Quaternion.identity);
 			attempts.missesRemaining++;
 		}
-		if (gameObject.tag == "Very Small Box"){
+		if (gameObject.CompareTag("Very Small Box"))
+        {
 			Destroy (gameObject);
-			particleSystem.startColor = Color.yellow;
-			Instantiate (particleSystem, transform.position, Quaternion.identity);
+			main.startColor = Color.yellow;
+			Instantiate (ps, transform.position, Quaternion.identity);
 			attempts.missesRemaining++;
 		}
 		boxDisplay.boxCount--;

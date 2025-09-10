@@ -1053,3 +1053,2037 @@ Memory consumption went from 108.8 MB to 108.8 MB.
 Total: 2.905583 ms (FindLiveObjects: 0.041083 ms CreateObjectMapping: 0.009417 ms MarkObjects: 2.775875 ms  DeleteObjects: 0.078833 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.556645 seconds.
+  path: Assets/Scripts/LevelManager.cs
+  artifactKey: Guid(d8c2b02447d51364d87c1820fd062c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelManager.cs using Guid(d8c2b02447d51364d87c1820fd062c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f031179056c0ea378d8fbceda1472a61') in 0.000611917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.121 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 311ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (8ms)
+	LoadAllAssembliesAndSetupDomain (10ms)
+		LoadAssemblies (30ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (4ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 415 unused Assets / (56.0 KB). Loaded Objects now: 933.
+Memory consumption went from 114.7 MB to 114.6 MB.
+Total: 2.352875 ms (FindLiveObjects: 0.031459 ms CreateObjectMapping: 0.008375 ms MarkObjects: 2.238458 ms  DeleteObjects: 0.074125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+Assembly 'Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.TestRunner'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  0.181 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 375ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (61ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 465 unused Assets / (90.6 KB). Loaded Objects now: 981.
+Memory consumption went from 121.1 MB to 121.1 MB.
+Total: 2.541667 ms (FindLiveObjects: 0.041792 ms CreateObjectMapping: 0.009542 ms MarkObjects: 2.404750 ms  DeleteObjects: 0.085417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 335.478183 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(352fd074ee735a1459bb21a6b1a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(352fd074ee735a1459bb21a6b1a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6fd76e6dc0ab81443b12e653cf19b2c') in 0.000715458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.186 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 381ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (74ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (5ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (84.7 KB). Loaded Objects now: 1357.
+Memory consumption went from 129.8 MB to 129.7 MB.
+Total: 2.762625 ms (FindLiveObjects: 0.059000 ms CreateObjectMapping: 0.015333 ms MarkObjects: 2.521750 ms  DeleteObjects: 0.166167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 707.544367 seconds.
+  path: Assets/Scripts/Box.cs
+  artifactKey: Guid(352fd074ee735a1459bb21a6b1a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Box.cs using Guid(352fd074ee735a1459bb21a6b1a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874511c2ab39d55e36f72c0e3d6e9234') in 0.000765333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.181 seconds
+Domain Reload Profiling: 348ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (132ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (211.7 KB). Loaded Objects now: 1357.
+Memory consumption went from 136.2 MB to 136.0 MB.
+Total: 2.530542 ms (FindLiveObjects: 0.041917 ms CreateObjectMapping: 0.013625 ms MarkObjects: 2.365500 ms  DeleteObjects: 0.109333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.174 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 368ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (63ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (224.5 KB). Loaded Objects now: 1357.
+Memory consumption went from 142.1 MB to 141.9 MB.
+Total: 2.450208 ms (FindLiveObjects: 0.044625 ms CreateObjectMapping: 0.015375 ms MarkObjects: 2.251084 ms  DeleteObjects: 0.138958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16bed7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 361ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (57ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (193ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (202.9 KB). Loaded Objects now: 1357.
+Memory consumption went from 148.3 MB to 148.1 MB.
+Total: 2.528125 ms (FindLiveObjects: 0.047500 ms CreateObjectMapping: 0.015292 ms MarkObjects: 2.364750 ms  DeleteObjects: 0.100250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 355ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (137ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (202.2 KB). Loaded Objects now: 1357.
+Memory consumption went from 154.4 MB to 154.2 MB.
+Total: 2.468167 ms (FindLiveObjects: 0.047458 ms CreateObjectMapping: 0.013125 ms MarkObjects: 2.291125 ms  DeleteObjects: 0.116167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.163 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.204 seconds
+Domain Reload Profiling: 367ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (55ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (84.2 KB). Loaded Objects now: 1357.
+Memory consumption went from 160.5 MB to 160.4 MB.
+Total: 2.926583 ms (FindLiveObjects: 0.059709 ms CreateObjectMapping: 0.015541 ms MarkObjects: 2.709667 ms  DeleteObjects: 0.141292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.172 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.179 seconds
+Domain Reload Profiling: 352ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (57ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (179ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (130ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (65.5 KB). Loaded Objects now: 1357.
+Memory consumption went from 166.7 MB to 166.6 MB.
+Total: 2.429916 ms (FindLiveObjects: 0.048292 ms CreateObjectMapping: 0.014041 ms MarkObjects: 2.270084 ms  DeleteObjects: 0.097416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5597.034888 seconds.
+  path: Assets/Scenes/_Win.unity
+  artifactKey: Guid(9cf7fb5aef723584f912a4e304f7d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_Win.unity using Guid(9cf7fb5aef723584f912a4e304f7d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '118c1cdbc6184ddb8ac18d762ab9318e') in 0.000774375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.412037 seconds.
+  path: Assets/Scenes/_Start.unity
+  artifactKey: Guid(15a25d7e111cce4409119a66eb4285a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_Start.unity using Guid(15a25d7e111cce4409119a66eb4285a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12b11445d3ffa6756fd7c3997fd615da') in 0.0002525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.166 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 381ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (136.9 KB). Loaded Objects now: 1357.
+Memory consumption went from 172.8 MB to 172.6 MB.
+Total: 2.884375 ms (FindLiveObjects: 0.051375 ms CreateObjectMapping: 0.016458 ms MarkObjects: 2.684167 ms  DeleteObjects: 0.132208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.164 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 374ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (55ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (99.2 KB). Loaded Objects now: 1357.
+Memory consumption went from 178.9 MB to 178.8 MB.
+Total: 2.924667 ms (FindLiveObjects: 0.055291 ms CreateObjectMapping: 0.015667 ms MarkObjects: 2.687292 ms  DeleteObjects: 0.165250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.166 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.217 seconds
+Domain Reload Profiling: 383ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (217ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (236.8 KB). Loaded Objects now: 1357.
+Memory consumption went from 185.0 MB to 184.8 MB.
+Total: 3.053583 ms (FindLiveObjects: 0.048208 ms CreateObjectMapping: 0.014125 ms MarkObjects: 2.812042 ms  DeleteObjects: 0.178666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 158.660572 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(d5e62c5431eb9c64bb9f2e9c4c1941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(d5e62c5431eb9c64bb9f2e9c4c1941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8665a7314dbc11278397db713fa12bc3') in 0.047689667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/Medium Box.prefab
+  artifactKey: Guid(8f03a32d91db8a940866d95279bbd805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Medium Box.prefab using Guid(8f03a32d91db8a940866d95279bbd805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431f91fe68df9c0bae8070dd841a40f2') in 0.005591125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.468993 seconds.
+  path: Assets/Sounds/Hit Platform.mp3
+  artifactKey: Guid(d5a1ee19f5b513c44b1afe9f278f6776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Hit Platform.mp3 using Guid(d5a1ee19f5b513c44b1afe9f278f6776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c634eed7ae412514dfd303c474056f60') in 0.019303417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sounds/Splash.wav
+  artifactKey: Guid(4b5b49a9ba8218d4ebcf51b96884ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Splash.wav using Guid(4b5b49a9ba8218d4ebcf51b96884ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e8d1c23af7efa27e4ed76c1f7114ff') in 0.003025333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.170 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.196 seconds
+Domain Reload Profiling: 366ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (145ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (90.6 KB). Loaded Objects now: 1359.
+Memory consumption went from 184.4 MB to 184.4 MB.
+Total: 2.659917 ms (FindLiveObjects: 0.068208 ms CreateObjectMapping: 0.016084 ms MarkObjects: 2.467708 ms  DeleteObjects: 0.107750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c193000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.189 seconds
+Domain Reload Profiling: 356ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (57ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (189ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (140ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (229.5 KB). Loaded Objects now: 1359.
+Memory consumption went from 190.5 MB to 190.3 MB.
+Total: 2.625458 ms (FindLiveObjects: 0.043291 ms CreateObjectMapping: 0.014709 ms MarkObjects: 2.445625 ms  DeleteObjects: 0.121625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Attached: 20 00008120-001A384A3698C01E
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.164 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.191 seconds
+Domain Reload Profiling: 356ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (54ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (223.0 KB). Loaded Objects now: 1359.
+Memory consumption went from 196.7 MB to 196.5 MB.
+Total: 2.474166 ms (FindLiveObjects: 0.041542 ms CreateObjectMapping: 0.014209 ms MarkObjects: 2.309042 ms  DeleteObjects: 0.109083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.163 seconds
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.191 seconds
+Domain Reload Profiling: 354ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (55ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (142.3 KB). Loaded Objects now: 1359.
+Memory consumption went from 202.8 MB to 202.6 MB.
+Total: 2.501666 ms (FindLiveObjects: 0.045792 ms CreateObjectMapping: 0.013666 ms MarkObjects: 2.329500 ms  DeleteObjects: 0.112292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 838 unused Assets / (71.9 KB). Loaded Objects now: 1359.
+Memory consumption went from 202.8 MB to 202.7 MB.
+Total: 2.597708 ms (FindLiveObjects: 0.047375 ms CreateObjectMapping: 0.015291 ms MarkObjects: 2.421084 ms  DeleteObjects: 0.113583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.196 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (9ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (146ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (205.5 KB). Loaded Objects now: 1359.
+Memory consumption went from 208.7 MB to 208.5 MB.
+Total: 2.653208 ms (FindLiveObjects: 0.044625 ms CreateObjectMapping: 0.014500 ms MarkObjects: 2.459417 ms  DeleteObjects: 0.134458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 302.076249 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(d5e62c5431eb9c64bb9f2e9c4c1941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(d5e62c5431eb9c64bb9f2e9c4c1941b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8df26a320cf55e0727263894ba34e76c') in 0.042278083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.855555 seconds.
+  path: Assets/START Pack/Images/Materials/Jupiter.mat
+  artifactKey: Guid(89db87e4d8a384c1da9d8ce75612f3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/START Pack/Images/Materials/Jupiter.mat using Guid(89db87e4d8a384c1da9d8ce75612f3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e5db21773e72c38502721a5c5871d39') in 0.037709709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.162430 seconds.
+  path: Assets/START Pack/Images/Materials/football.mat
+  artifactKey: Guid(e57ea3989dc7f4e50bd55982de841177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/START Pack/Images/Materials/football.mat using Guid(e57ea3989dc7f4e50bd55982de841177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48daf41a8b1137d8d2e351b1155bc2f8') in 0.007379708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.179 seconds
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 370ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (9ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (68ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (145.3 KB). Loaded Objects now: 1392.
+Memory consumption went from 216.1 MB to 215.9 MB.
+Total: 2.684375 ms (FindLiveObjects: 0.052500 ms CreateObjectMapping: 0.014708 ms MarkObjects: 2.467834 ms  DeleteObjects: 0.149083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 169.244860 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f341b3217b3dc699feed46dbb5a92f5') in 0.017870417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.292685 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1306b7d6bd94ef44af5c066c3701dd0') in 0.000970708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.716098 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9814e98e48b966076f6f875f95d9d598') in 0.001838208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.892478 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd4d3c373810e74acde452da3a90f14d') in 0.000854209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.042153 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca8e5d9f86315ec0e31129ea394f409') in 0.000833333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.254792 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ceaacbc8852f0a0c999f72b4a03e493') in 0.000865875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.443844 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97ec5c8674fd726a7b661b5e0646f8f9') in 0.000994125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.035285 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1a5b49bd035631fa625f80166b5e0cc') in 0.000908583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.845379 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6c3b55864a9dcf9428df6915ca28985') in 0.000883958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.628550 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b718c3cde23ed4950749e5490bafe52c') in 0.00093725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.844429 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0913dc01a72669463e089eff0ee618b7') in 0.000927209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.636898 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da3e6c18ae1698eb3b59a6dc68e6d3d2') in 0.000888417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.244362 seconds.
+  path: Assets/Prefabs/LevelCanvas.prefab
+  artifactKey: Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LevelCanvas.prefab using Guid(284ca0d1b60a849dea58afdde462e90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5503d93cc2c82264d1f25eb2575d3509') in 0.000941917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.169 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.211 seconds
+Domain Reload Profiling: 381ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (118.4 KB). Loaded Objects now: 1392.
+Memory consumption went from 222.5 MB to 222.4 MB.
+Total: 2.943292 ms (FindLiveObjects: 0.064708 ms CreateObjectMapping: 0.015500 ms MarkObjects: 2.657917 ms  DeleteObjects: 0.204875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.173 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 367ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (59ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (9ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (238.9 KB). Loaded Objects now: 1392.
+Memory consumption went from 228.7 MB to 228.5 MB.
+Total: 2.335417 ms (FindLiveObjects: 0.046042 ms CreateObjectMapping: 0.015292 ms MarkObjects: 2.160458 ms  DeleteObjects: 0.113458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.166 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.189 seconds
+Domain Reload Profiling: 356ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (208.7 KB). Loaded Objects now: 1392.
+Memory consumption went from 234.8 MB to 234.6 MB.
+Total: 2.550958 ms (FindLiveObjects: 0.047834 ms CreateObjectMapping: 0.015291 ms MarkObjects: 2.375542 ms  DeleteObjects: 0.111833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.166 seconds
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 361ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (206.3 KB). Loaded Objects now: 1392.
+Memory consumption went from 240.9 MB to 240.7 MB.
+Total: 2.546500 ms (FindLiveObjects: 0.046833 ms CreateObjectMapping: 0.013709 ms MarkObjects: 2.374333 ms  DeleteObjects: 0.111375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 838 unused Assets / (125.6 KB). Loaded Objects now: 1392.
+Memory consumption went from 241.0 MB to 240.9 MB.
+Total: 2.610959 ms (FindLiveObjects: 0.048333 ms CreateObjectMapping: 0.013917 ms MarkObjects: 2.417791 ms  DeleteObjects: 0.130792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.172 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.194 seconds
+Domain Reload Profiling: 366ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (57ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (143ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (242.0 KB). Loaded Objects now: 1392.
+Memory consumption went from 246.9 MB to 246.7 MB.
+Total: 2.808458 ms (FindLiveObjects: 0.056750 ms CreateObjectMapping: 0.014208 ms MarkObjects: 2.597167 ms  DeleteObjects: 0.140208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 838 unused Assets / (220.6 KB). Loaded Objects now: 1392.
+Memory consumption went from 247.0 MB to 246.8 MB.
+Total: 2.499584 ms (FindLiveObjects: 0.046042 ms CreateObjectMapping: 0.015875 ms MarkObjects: 2.322625 ms  DeleteObjects: 0.114750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.166 seconds
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (145ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (146.9 KB). Loaded Objects now: 1392.
+Memory consumption went from 252.9 MB to 252.8 MB.
+Total: 2.499875 ms (FindLiveObjects: 0.048667 ms CreateObjectMapping: 0.015166 ms MarkObjects: 2.315042 ms  DeleteObjects: 0.120791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.168 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.207 seconds
+Domain Reload Profiling: 375ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (57ms)
+		LoadAssemblies (67ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (107.4 KB). Loaded Objects now: 1392.
+Memory consumption went from 259.0 MB to 258.9 MB.
+Total: 3.282792 ms (FindLiveObjects: 0.054791 ms CreateObjectMapping: 0.018125 ms MarkObjects: 3.047542 ms  DeleteObjects: 0.161917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 358ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (56ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (191ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (141ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (213.4 KB). Loaded Objects now: 1392.
+Memory consumption went from 265.2 MB to 265.0 MB.
+Total: 2.538792 ms (FindLiveObjects: 0.044958 ms CreateObjectMapping: 0.015667 ms MarkObjects: 2.355833 ms  DeleteObjects: 0.122209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.167 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.216 seconds
+Domain Reload Profiling: 383ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (55ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (216ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (158ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (80.2 KB). Loaded Objects now: 1392.
+Memory consumption went from 271.3 MB to 271.2 MB.
+Total: 2.991875 ms (FindLiveObjects: 0.052958 ms CreateObjectMapping: 0.015000 ms MarkObjects: 2.767083 ms  DeleteObjects: 0.156542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 390.499481 seconds.
+  path: Assets/Scenes/_Start.unity
+  artifactKey: Guid(15a25d7e111cce4409119a66eb4285a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_Start.unity using Guid(15a25d7e111cce4409119a66eb4285a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f7c14659b8846cd400b12e0e47d067') in 0.000866625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
