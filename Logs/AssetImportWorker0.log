@@ -7289,3 +7289,154 @@ Memory consumption went from 0.62 GB to 0.62 GB.
 Total: 2.720708 ms (FindLiveObjects: 0.049791 ms CreateObjectMapping: 0.014334 ms MarkObjects: 2.526208 ms  DeleteObjects: 0.130125 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Thread 0x16c21f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.174 seconds
+Refreshing native plugins compatible for Editor in 0.09 ms, found 1 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 363ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (60ms)
+		LoadAssemblies (70ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (9ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (136ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (1ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 839 unused Assets / (217.6 KB). Loaded Objects now: 1394.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 2.533958 ms (FindLiveObjects: 0.043167 ms CreateObjectMapping: 0.014125 ms MarkObjects: 2.366958 ms  DeleteObjects: 0.109417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Detached: 20 00008120-001A384A3698C01E
+[usbmuxd] Attached: 21 00008120-001A384A3698C01E
+========================================================================
+Received Import Request.
+  Time since last request: 822.867401 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(c5f826355dfb0410a81cf71c8ebf0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(c5f826355dfb0410a81cf71c8ebf0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e9580eb42f8fcf548e7ebe922e9292d') in 0.000697875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.855500 seconds.
+  path: Assets/Plugins/iOS
+  artifactKey: Guid(d3dab75415f8d409da3b119fe289c9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS using Guid(d3dab75415f8d409da3b119fe289c9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeafe61c8a7e7abca5ccc568984a942e') in 0.0003125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.122745 seconds.
+  path: Assets/Plugins/iOS/1024x1024.png
+  artifactKey: Guid(82c477c5b91c44ef1b9bc491d2ba4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/1024x1024.png using Guid(82c477c5b91c44ef1b9bc491d2ba4149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-67RG-VUMH-PX5P-M46F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1374472889456-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: '1667f856ff17451ed002d3e3242592c1') in 0.035700875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.739400 seconds.
+  path: Assets/Plugins/iOS/120x120.png
+  artifactKey: Guid(4c9152d1a166546d0b2fc37c237c464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/120x120.png using Guid(4c9152d1a166546d0b2fc37c237c464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc574ed351b86737f3b8ed3f56e5148') in 0.00749975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.062353 seconds.
+  path: Assets/Plugins/iOS/152x152.png
+  artifactKey: Guid(a029c76f50a5046dea82e68a632f14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/152x152.png using Guid(a029c76f50a5046dea82e68a632f14e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3187aa053e773602864516b27250ed35') in 0.006383916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.512785 seconds.
+  path: Assets/Plugins/iOS/76x76.png
+  artifactKey: Guid(d8b54651185074500aa66b2b5c8dbbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/76x76.png using Guid(d8b54651185074500aa66b2b5c8dbbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4b1b5c77ce22b0f9527d97daf6ac992') in 0.005644041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+[usbmuxd] Detached: 21 00008120-001A384A3698C01E
+[usbmuxd] Attached: 22 00008120-001A384A3698C01E
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (26.3 KB). Loaded Objects now: 1397.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 3.042333 ms (FindLiveObjects: 0.039125 ms CreateObjectMapping: 0.009792 ms MarkObjects: 2.951708 ms  DeleteObjects: 0.041583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Detached: 22 00008120-001A384A3698C01E
